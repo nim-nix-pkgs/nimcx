@@ -11,6 +11,7 @@
   inputs.src-nimcx-master.ref   = "refs/heads/master";
   inputs.src-nimcx-master.owner = "qqtop";
   inputs.src-nimcx-master.repo  = "nimcx";
+  inputs.src-nimcx-master.dir   = "";
   inputs.src-nimcx-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
